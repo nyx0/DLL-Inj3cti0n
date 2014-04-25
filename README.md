@@ -52,6 +52,9 @@ C:\tmp> inject.exe dll.dll 42
   * http://syprog.blogspot.ca/2012/05/createremotethread-bypass-windows.html
   * http://www.ivanlef0u.tuxfamily.org/?p=395
   * http://blog.opensecurityresearch.com/2013/01/windows-dll-injection-basics.html
+  * http://www.codeguru.com/cpp/w-p/system/misc/article.php/c5667/API-Hooking-Revealed.htm
+  * http://www.drdobbs.com/inside-nts-asynchronous-procedure-call/184416590
+  * 
 
 ## Author
 
