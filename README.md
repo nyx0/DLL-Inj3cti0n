@@ -4,8 +4,8 @@ Another dll injection tool.
 
 ## Overview
 
-This tool is a implementation of differentes injection / execution of DLL.
-It works on : 
+This tool is a implementation of differentes injection / execution of DLL.  
+Test on : 
    - windows xp sp3 (use the token privilege for system process injection,) /!\ put the DLL at the same target process directory
    - windows seven (works on the same user session process)
 
