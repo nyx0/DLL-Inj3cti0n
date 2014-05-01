@@ -5,13 +5,25 @@ Another dll injection tool.
 ## Overview
 
 This tool is a implementation of differentes injection / execution of DLL.  
-Test on : 
-   - windows xp sp3 (use the token privilege for system process injection,) /!\ put the DLL at the same target process directory
-   - windows seven (works on the same user session process)
+Works on : 
+
+Method              | Windows XP | Windows Seven 32bits | Windows Seven 64bits | 
+------------------- | ---------- | -------------------- | -------------------- |
+CreateRemoteThread  |     +      |           +          |          -           |
+Injection shellcode |     +      |           +          |          -           |
+QueueUserAPC()      |     +      |           +          |          -           |
+
+> **NOTES :**
+> 
+> - On Windows XP by default I enable debug token in order to inject in system process.
+> - Its works on Windows Seven 64bits but only on 32bits application.
+> - On Windows Seven the application need to be on the same session that the user who has launched the tool.
+> - The method using QueueUserAPC() has been tested on notepad application (once the injection done, click on open).
 
 The DLL that I used to inject different process is also present.  
 I developed this tool in order to learn dll injection.  
 Don't hesitate to help me to improve it.  
+The tool has been compiled with Visual Studio Express 2013.  
 
 ## Usage
 
